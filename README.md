@@ -15,7 +15,7 @@
 
 ```
 docker run -it --rm \
-    -v "./spiders:/work/spiders/" \
+    -v "./spiders:/work/PyBots/spiders/" \
     -e "API_PREFIX=https://remotex.ooclab.org/api" \
     -e "API_KEY=我的秘钥" \
     ooclab/remotex-scrapy \
